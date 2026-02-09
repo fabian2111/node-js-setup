@@ -1,0 +1,18 @@
+:root {
+    --color-background-body: rgb(245, 245, 245);
+    --color-background-header: #e0ffff;
+    --color-background-button: rgb(185, 204, 250);
+
+    --color-background-error: #940c0c;
+
+    --color-link: #a52a2a;
+    --color-text: #804000;
+}
+
+body.dark-mode {
+ --color-background-body: rgb(55, 55, 55);
+ --color-background-header: rgb(159, 159, 159);
+
+ --color-text: white;
+ --color-link: skyblue;
+}

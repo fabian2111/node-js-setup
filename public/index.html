@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset = "utf-8"/>
+        <link rel="stylesheet" href="styles.css"/>
+        <link rel="stylesheet" href="tokens.css">
+        <title>Fabian</title>
+
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=DynaPuff:wght@400..700&family=Playball&family=Sour+Gummy:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+        
+        <script type="module" src="header.mjs"></script>
+    </head>
+
+    <body>
+        <!--
+        <header class="intro">
+            <div>
+                <h1>Fabian Ballesteros-Limon</h1>
+    
+                <nav>
+                    <a href = "hobbies.html">My recent trips</a>
+                </nav>
+
+            </div>
+            <div>
+                <label>
+                    <input type="checkbox" autocomplete="off" />
+                    Dark mode
+                </label>
+                <button class="menu">Menu</button>
+            <div>
+        </header>
+    -->
+
+    <h2>Home</h2>
+
+        <main>
+        
+                <div class="info">
+                    <img src = "mypicture.jpeg" alt="Fabian">
+                    <h3>Contact Information</h2>
+                    <dl class="contact">
+                        <dt>Email</dt>
+                        <dd>fballest@calpoly.edu</dd>
+
+                        <dt>Github</dt>
+                        <dd>fabian2111</dd>
+
+                    </dl>
+
+                </div>
+
+                <div class="about">
+                    <h3>About me</h2>
+                    <p>Hello, my name is <i>Fabian</i> and I am a second year <b>Software Engineering</b> major. I am mostly new
+                        to html and css but i had some experience with it.
+                    </p>
+
+                    <h3>Things I like to do:</h3>
+
+                    <ul>
+                    <li>Watch sports</li>
+                    <li>Exploring nature</li>
+                    <li>Hanging out with friends</li>
+                    <li>Doing cookouts</li>
+                    </ul>
+                </div>
+
+                
+                <div class="experience">
+                    <h3>My CS experience</h3>
+                    <dl>
+                        <dt>1st year</dt>
+                        <dd>I spent most of my first year learning how to program. I learned things such as <strong>functions, loops, etc</strong>.
+                            I then learned many different data structures and had a few projects implementing them.
+                        </dd>
+                        <dt>2nd year</dt>
+                        <dd>Last quarter I took a Java class in which I spent time programming with objects and learning about the differnet concepts such as <strong>inheritance</strong>.
+                            I also took an assembly class which taught me about assembly and how things like a <strong>CPU and Memory</strong> work.
+                            I am currently taking this class and another class that will teach me about <strong>systems programming</strong>.
+                        </dd>
+                    </dl>
+                </div>
+
+                <div>
+                    <h3>Contact Me</h3>
+                    <form novalidate="true" class="contact-me">
+                        <div>
+                            <label>
+                                <input type="text" name="contactMethod" aria-label="email" id="emailInput" required />
+                                Email
+                            </label>
+                            <p id="invEmail"></p>
+                        </div>
+                        <fieldset class="contactCheck">
+                            <legend>What best describes yourself?</legend>
+                            <div>
+                                <label>
+                                    <input type="checkbox" name="describes1" aria-label="employer" class="form-checkbox"/>
+                                    Employer
+                                </label>
+                                <p id="noCheck"></p>
+                            </div>
+                            <div>
+                                <label>
+                                    <input type="checkbox" name="describes2" aria-label="peer" class="form-checkbox"/>
+                                    Peer
+                                </label>
+                            </div>
+                            <div>
+                                <label>
+                                    <input type="checkbox" name="describes3" aria-label="other" class="form-checkbox"/>
+                                    Other
+                                </label>
+                            </div>
+                        </fieldset>
+                        <div>
+                            <fieldset>
+                                <legend>Message</legend>
+                                <label>
+                                    <input id="message" name="message" aria-label="message"/>
+                                </label>
+                            </fieldset>
+                        </div>
+                        
+                        <input type="submit" value="Submit" />
+                    </form>
+                </div>
+                        
+
+        </main>
+    </body>
+</html>
