@@ -1,0 +1,24 @@
+{
+  "name": "js-setup",
+  "version": "1.0.0",
+  "description": "",
+  "homepage": "https://github.com/fabian2111/node-js-setup#readme",
+  "bugs": {
+    "url": "https://github.com/fabian2111/node-js-setup/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/fabian2111/node-js-setup.git"
+  },
+  "license": "ISC",
+  "author": "",
+  "type": "commonjs",
+  "main": "index.js",
+  "scripts": {
+    "start": "http-server -p 3000",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "dependencies": {
+    "http-server": "^14.1.1"
+  }
+}
