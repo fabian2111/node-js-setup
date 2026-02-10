@@ -2,22 +2,24 @@ import { toHtmlElement } from "./toHtmlElement.mjs";
 
 const headerString = `<header class="intro">
 
-            <div>
-                <h1>Fabian Ballesteros-Limon</h1>
+            <div class="name-links">
+            <h1>Fabian Ballesteros-Limon</h1>
+            <nav class="links">
+                <a href="index.html">Home</a>
+                <a href="hobbies.html">My recent trips</a>
+            </nav>
+
             </div>
+
             <div class="options">
-                <nav class="links">
-                    <a href="index.html">Home</a>
-                    <a href="hobbies.html">My recent trips</a>
-                </nav>
-            <div>
                 <label>
                     <input class="dark" type="checkbox" autocomplete="off"/>
                     Dark mode
                 </label>
                 <button class="menu">Menu</button>
-            <div>
             </div>
+                
+                
         </header>`;
 
 
